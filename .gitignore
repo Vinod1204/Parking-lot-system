@@ -1,2 +1,32 @@
-_pycache
-.env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Test / coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# FastAPI specific
+*.db
